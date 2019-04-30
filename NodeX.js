@@ -24,15 +24,6 @@ function importFromCSV()
   
 
 
-//for (var i = 0; i < files.length; i++) //Recorre la lista de archivos del usuario
-
-//  {
-//    if (files[i].getName() == fileName) //Si encuentra Dato1.csv
-
-//    {
-//     csvFile = files[i].getContentAsString();//Devuelve el contenido del archivo como string
-
-//    break;
   
   function getFileFromDrive() {
     var filesIterator = DriveApp.getFilesByName ('Dato2.csv');
